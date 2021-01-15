@@ -38,8 +38,8 @@ import org.haxe.lime.HaxeObject;
 
 ///permisions
 import android.content.pm.PackageManager;
-import android.support.v4.app.ActivityCompat;
 import android.Manifest;
+import androidx.core.app.ActivityCompat;
 
 
 public class ScreenCaptureEX extends Extension {
