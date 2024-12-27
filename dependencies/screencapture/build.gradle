@@ -11,6 +11,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+	namespace 'com.byrobin.screencapture'
 	sourceSets {
 		main {
 			manifest.srcFile 'AndroidManifest.xml'
