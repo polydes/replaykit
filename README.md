@@ -9,25 +9,12 @@ Stencyl extension for “ReplayKit” for iOS . This extension allows you to eas
 <span style="color:red;">On Android  is ReplayKit only available on devices running Android 5.0 (Lollipop) or above.<br/>
 For Android make sure you selected API 21 or higher in Mobile settings->version->Android Target version</span>
 
-### Important!!
-
-This Extension Required the Toolset Extension Manager [https://byrobingames.github.io](https://byrobingames.github.io)
-
 ![replaykittoolset](https://byrobingames.github.io/img/replaykit/replaykittoolset.png)
 
 ## Main Features
 
   * Recording video and share
   
-## How to Install
-
-To install this Engine Extension, go to the toolset (byRobin Extension Mananger) in the Extension menu of your game inside Stencyl.<br/>
-![toolsetextensionlocation](https://byrobingames.github.io/img/toolset/toolsetextensionlocation.png)<br/>
-Select the Extension from the menu and click on "Download"
-
-If you not have byRobin Extension Mananger installed, install this first.<br/>
-Go to: [https://byrobingames.github.io](https://byrobingames.github.io)
-
 ## Documentation and Block Examples
 
 <span style="color:red;">For Android make sure you selected API 21 or higher in Mobile settings->version->Android Target version</span>
@@ -77,29 +64,6 @@ If the ReplayKit is not available it will return false and the Actor will never 
 - 2017-03-19 (0.0.5) Added Gradle support for openfl4
 - 2017-03-21 (0.0.6) Fix: Audio stops playing after dismiss Preview, Added previewController didOpened/didClosed boolean block. (for pause your gameaudio when preview didopened and resume when closed)
 - 2017-05-16(0.0.7) Tested for Stencyl 3.5, Required byRobin Toolset Extension Manager
-
-## Submitting a Pull Request
-
-This software is opensource.<br/>
-If you want to contribute you can make a pull request
-
-Repository: [https://github.com/byrobingames/replaykit](https://github.com/byrobingames/replaykit)
-
-Need help with a pull request?<br/>
-[https://help.github.com/articles/creating-a-pull-request/](https://help.github.com/articles/creating-a-pull-request/)
-
-## ANY ISSUES?
-
-Add the issue on GitHub<br/>
-Repository: [https://github.com/byrobingames/applovin/issues](https://github.com/byrobingames/applovin/issues)
-
-Need help with creating a issue?<br/>
-[https://help.github.com/articles/creating-an-issue/](https://help.github.com/articles/creating-an-issue/)
-
-
-## Donate
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HKLGFCAGKBMFL)<br />
 
 ## License
 

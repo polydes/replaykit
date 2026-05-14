@@ -1,8 +1,0 @@
-name=Replaykit iOS/Android
-description=ReplayKit iOS 9+ and Android Lollipop API 21+.
-author=Robin Schaafsma
-website=http://www.byrobingames.com
-version=0.0.8
-compatibility=mobile
-dependencies=toolset-com.byrobingames.manager-0.1.0,stencylbuild-12043
-repository=http://www.polydes.com/byrobingames

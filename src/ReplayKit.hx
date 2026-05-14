@@ -8,6 +8,11 @@ import neko.Lib;
 import openfl.Lib;
 #end
 
+#if ios
+@:buildXml('<include name="${haxelib:replaykit}/project/build.xml"/>')
+//This is just here to prevent the otherwise indirectly referenced native code from being stripped at link time.
+@:cppFileCode('extern "C" int replaykitex_register_prims();void com_byrobin_replaykit_link(){replaykitex_register_prims();}')
+#end
 class ReplayKit
 {	
 	private static var initialized:Bool=false;

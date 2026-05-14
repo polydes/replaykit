@@ -1,0 +1,19 @@
+{
+  "group": "com.polydes.byrobin",
+  "id": "replaykit",
+  "name": "Replaykit iOS/Android",
+  "description": "ReplayKit iOS 9+ and Android Lollipop API 21+.",
+  "tags": ["system"],
+  "type": "game",
+  "author": "Robin Schaafsma",
+  "website": "https://www.polydes.com/byrobingames/engine/replaykit",
+  "repository": "https://www.polydes.com/byrobingames",
+  "target": "stencyl-4.2.0",
+  "version": "0.1.0",
+
+  "icon": "icon.png",
+
+  "engine": {
+    "compatibility": "mobile"
+  }
+}
