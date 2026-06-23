@@ -52,19 +52,6 @@ This boolean block turns true when recording start and turns to false when recor
 If the ReplayKit is not available it will return false and the Actor will never be created.<br/>
 ![replaykitisrecording](https://byrobingames.github.io/img/replaykit/replaykitisrecording.png)
 
-## Version History
-
-- 2016-04-06 (0.0.1) First release
-- 2016-04-08 (0.0.2) Fix: Crash on iOS8 and lower.
-- 2016-10-01 (0.0.3)<br/>
-– Android 5.0> support (works only on device thats running Android 5 or higher<br/>
-– Added is Cancelled boolean block<br/>
-– Added ask for Preview option in Initialize block (ask user to view video after recording)<br/>
-- 2016-10-03 (0.0.4) Update for iOS 10 startRecordingWithMicrophoneEnabled is Deprecated in iOS 10, need to call startRecordingWithHandler in iOS 10.
-- 2017-03-19 (0.0.5) Added Gradle support for openfl4
-- 2017-03-21 (0.0.6) Fix: Audio stops playing after dismiss Preview, Added previewController didOpened/didClosed boolean block. (for pause your gameaudio when preview didopened and resume when closed)
-- 2017-05-16(0.0.7) Tested for Stencyl 3.5, Required byRobin Toolset Extension Manager
-
 ## License
 
 Author: Robin Schaafsma
