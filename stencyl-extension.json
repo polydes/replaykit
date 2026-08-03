@@ -6,7 +6,7 @@
   "tags": ["system"],
   "type": "game",
   "author": "Robin Schaafsma",
-  "website": "https://www.polydes.com/byrobingames/engine/replaykit",
+  "website": "https://www.polydes.com/byrobingames/extensions/replaykit",
   "repository": "https://www.polydes.com/byrobingames",
   "target": "stencyl-4.2.0",
   "version": "0.1.0",
